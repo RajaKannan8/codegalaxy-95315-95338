@@ -1,1 +1,3 @@
-# codegalaxy-95315-95338
+# Project Repository
+
+This is the initial README file for the project.
