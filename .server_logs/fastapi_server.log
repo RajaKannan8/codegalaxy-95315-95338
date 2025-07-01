@@ -47,7 +47,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
   File "<frozen importlib._bootstrap_external>", line 995, in exec_module
   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
-  File "/home/kavia/workspace/code-generation/codegalaxy-95315-95338/devarena_backend/src/api/main.py", line 69, in <module>
+  File "/home/kavia/workspace/code-generation/codegalaxy-95315-95338/devarena_backend/src/api/main.py", line 71, in <module>
     app.include_router(
   File "/home/kavia/workspace/code-generation/codegalaxy-95315-95338/devarena_backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1447, in include_router
     self.router.include_router(
