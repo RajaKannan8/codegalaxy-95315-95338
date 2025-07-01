@@ -51,6 +51,7 @@ async def all_exception_handler(request: Request, exc: Exception):
     )
 
 
+# E302: Ensure TWO blank lines above function
 @app.get("/", tags=["Health"])
 async def health_check():
     """
@@ -58,6 +59,7 @@ async def health_check():
     Returns status if the server is healthy.
     """
     return {"message": "Healthy", "version": API_VERSION}
+
 
 # Versioned API root
 API_PREFIX = f"/api/{API_VERSION}"

@@ -12,4 +12,3 @@ class Notification(BaseModel):
 class NotificationCreate(BaseModel):
     message: str
     channel: str
-

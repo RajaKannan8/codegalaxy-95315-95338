@@ -12,4 +12,3 @@ class Bug(BaseModel):
 class BugCreate(BaseModel):
     title: str
     description: str
-
